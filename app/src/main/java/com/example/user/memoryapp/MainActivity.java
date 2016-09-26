@@ -43,6 +43,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.button1:
                 takeQrCodePicture();
+
+
+
+
+
             break;
 
         }
