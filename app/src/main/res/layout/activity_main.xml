@@ -14,26 +14,65 @@
         android:layout_height="wrap_content"
         android:text="Scan"
         android:id="@+id/button1"
-        android:layout_marginTop="42dp"
-        android:layout_below="@+id/textView1"
-        android:layout_centerHorizontal="true" />
+
+        android:layout_marginStart="14dp"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignStart="@+id/imageView1" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Text1"
+        android:text=" "
         android:id="@+id/textView1"
-        android:layout_marginTop="56dp"
+        android:textSize="26sp"
         android:layout_below="@+id/imageView1"
-        android:layout_centerHorizontal="true"
-        android:textSize="32sp"/>
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="46dp" />
 
     <ImageView
-        android:layout_width="500px"
-        android:layout_height="500px"
+        android:layout_width="300px"
+        android:layout_height="300px"
         android:id="@+id/imageView1"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp" />
+
+    <ImageView
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:id="@+id/imageView2"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="70dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:id="@+id/textView2"
+        android:textSize="26sp"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_alignStart="@+id/imageView2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan"
+        android:id="@+id/button2"
+
+        android:layout_marginEnd="25dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_marginTop="14dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to Array"
+        android:id="@+id/add_to_array"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/button1" />
 
 
 </RelativeLayout>
