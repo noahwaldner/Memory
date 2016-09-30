@@ -124,22 +124,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.button1:
-                takeQrCodePicture();
-                button = 1;
-                break;
-            case R.id.button2:
-                takeQrCodePicture();
-                button = 2;
-                break;
-            case R.id.add_to_array:
-                addnewentry();
-                break;
-        }
-
-    }
 
 
     public void addnewentry() {
